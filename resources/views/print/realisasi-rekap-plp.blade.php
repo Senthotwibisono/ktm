@@ -499,8 +499,8 @@ table tfoot tr td:first-child {
             <td style="font-size: 11px;" colspan="2">&nbsp;</td>
         </tr>
         <tr>
-            <td style="font-size: 11px;"><b style="text-decoration: underline;">YANUAR ANDRES SUSILO</b><br/>Manager TPS</td>
-            <td style="text-align: right;font-size: 11px;"><b style="text-decoration: underline;">RINI ELVIRA</b><br />Kabid. Admin. Lapangan TPS</td>
+            <td style="font-size: 11px;"><b style="text-decoration: underline;">-</b><br/>Manager TPS</td>
+            <td style="text-align: right;font-size: 11px;"><b style="text-decoration: underline;">-</b><br />Kabid. Admin. Lapangan TPS</td>
         </tr>
     </table>
 </div>

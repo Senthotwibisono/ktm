@@ -405,8 +405,8 @@
                         <div class="col-sm-8">
                             <select class="form-control select2" id="location_behandle" name="location_behandle" style="width: 100%;" tabindex="-1" aria-hidden="true" required>
                                 <option value="">Choose Location</option>
-                                <option value="ARN1-UTARA">ARN1-UTARA</option>
-                                <option value="ARN3-BARAT">ARN3-BARAT</option>
+                                <option value="KTM1">KTM1</option>
+                               
                             </select>
                         </div>
                     </div>
@@ -535,17 +535,11 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-@endsection
-
-@section('custom_css')
 
 <!--<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />-->
 <link rel="stylesheet" href="{{ asset("/bower_components/AdminLTE/plugins/datepicker/datepicker3.css") }}">
 <link rel="stylesheet" href="{{ asset("/bower_components/AdminLTE/plugins/timepicker/bootstrap-timepicker.min.css") }}">
 
-@endsection
-
-@section('custom_js')
 
 <script src="{{ asset("/bower_components/AdminLTE/plugins/datepicker/bootstrap-datepicker.js") }}"></script>
 <script src="{{ asset("/bower_components/AdminLTE/plugins/timepicker/bootstrap-timepicker.min.js") }}"></script>

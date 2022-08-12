@@ -75,44 +75,7 @@
         </li>
         @role('bea-cukai')
             @if(\Auth::getUser()->username != 'bcgaters1')
-            <li class="treeview">
-                <a href="#">
-                  <i class="fa fa-th"></i> <span>Import LCL</span>
-                  <span class="pull-right-container">
-                    <i class="fa fa-angle-left pull-right"></i>
-                  </span>
-                </a>
-                <ul class="treeview-menu">
-                  <li><a tabindex="-1" href="{{ route('lcl-register-index') }}">Register</a></li>
-                  <li><a tabindex="-1" href="{{ route('lcl-manifest-index') }}">Manifest</a></li>
-                  <li><a tabindex="-1" href="{{ route('lcl-dispatche-index') }}">Dispatche E-Seal</a></li>
-
-                  <li class="treeview">
-                    <a href="#"><i class="fa fa-circle-o"></i> Realisasi
-                      <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                    </a>
-                    <ul class="treeview-menu">
-                      <li><a href="{{ route('lcl-realisasi-gatein-index') }}">Masuk / Gate In</a></li>
-                      <li><a href="{{ route('lcl-realisasi-stripping-index') }}">Stripping</a></li>
-                      <li><a href="{{ route('lcl-realisasi-buangmty-index') }}">Buang MTY</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="treeview">
-                    <a href="#"><i class="fa fa-circle-o"></i> Delivery
-                      <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                      </span>
-                    </a>
-                    <ul class="treeview-menu">
-                      <li><a href="{{ route('lcl-delivery-behandle-index') }}">Behandle</a></li>
-                      <li><a href="{{ route('lcl-delivery-release-index') }}">Release / Gate Out</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
+ 
               <li class="treeview">
                 <a href="#">
                   <i class="fa fa-th"></i> <span>Import FCL</span>

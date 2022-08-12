@@ -78,7 +78,7 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td>{{($container->KODE_GUDANG == 'ARN3') ? 'PT. KODJA TERRAMARIN'}}&nbsp;{{$container->location_name}}&nbsp;</td>
+                            <td>{{($container->KODE_GUDANG == 'KTM1') ? 'PT. KODJA TERRAMARIN'}}&nbsp;{{$container->location_name}}&nbsp;</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -144,7 +144,7 @@
                 <tr>
                     <td align="left" style="display: block;">{{($container->KODE_GUDANG == 'ARN3') ? 'INDRA' : 'WATMASDEL'}}</td>
                     <td></td>
-                    <td align="center">TONY NOVRIADI BUDIHARJO</td>
+                    <td align="center">-</td>
                 </tr>
             </table>
         </div>

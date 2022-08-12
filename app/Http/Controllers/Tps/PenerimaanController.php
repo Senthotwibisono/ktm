@@ -898,7 +898,7 @@ class PenerimaanController extends Controller
                     $regID = str_pad(intval((isset($spk_last_id->id) ? $spk_last_id->id : 0)+1), 4, '0', STR_PAD_LEFT);
                     
                     $data['NOSPK'] = $request->no_spk;
-                    $data['NOJOBORDER'] = 'AIRNL'.$regID.'/'.date('y');
+                    $data['NOJOBORDER'] = 'KTM'.$regID.'/'.date('y');
                     $data['NO_BC11'] = $plp->NO_BC11;
                     $data['NO_POS_BC11'] = $nopos;
                     $data['TNO_PLP'] = $plp->NO_PLP;

@@ -107,18 +107,14 @@
     </form>
 </div>
 
-@endsection
 
-@section('custom_css')
 
 <!-- Select2 -->
 <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
 
 <!-- Bootstrap Switch -->
 <link rel="stylesheet" href="{{ asset("/bower_components/AdminLTE/plugins/bootstrap-switch/bootstrap-switch.min.css") }}">
-@endsection
 
-@section('custom_js')
 
 <!-- Select2 -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>

@@ -56,7 +56,7 @@
                     <div class="form-group">
                       <label for="roles" class="col-sm-3 control-label">Roles</label>
                       <div class="col-sm-8">
-                            <select class="form-control select2 select2-hidden-accessible" name="role_id" style="width: 100%;" tabindex="-1" aria-hidden="true" required>
+                            <select class="form-control select2 " name="role_id" style="width: 100%;" tabindex="-1" aria-hidden="true" required>
                                 <option value="">Choose Roles</option>
                                 @foreach($roles as $role)
                                     <option value="{{ $role->id }}">{{ $role->name }}</option>
@@ -67,7 +67,7 @@
                     <div class="form-group">
                         <label class="col-sm-3 control-label">Status</label>
                         <div class="col-sm-8">
-                            <select class="form-control select2 select2-hidden-accessible" name="status" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                            <select class="form-control select2 " name="status" style="width: 100%;" tabindex="-1" aria-hidden="true">
                                 <option value="active" selected="selected">Active</option>
                                 <option value="inactive">Inactive</option>
                             </select>

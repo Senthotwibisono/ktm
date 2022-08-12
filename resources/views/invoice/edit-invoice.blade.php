@@ -181,13 +181,7 @@
     </div>
   </section>
 
-@endsection
 
-@section('custom_css')
-
-@endsection
-
-@section('custom_js')
 
 <script type="text/javascript">
     $('#print-invoice-btn').click(function() {

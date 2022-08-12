@@ -184,11 +184,11 @@
                     <div class="form-group">                       
                         <label class="col-sm-3 control-label">Kode Gudang</label>
                         <div class="col-sm-3">
-                            <input type="text" name="KODE_GUDANG" placeholder="ARN1/ARN3" class="form-control" required>
+                            <input type="text" name="KODE_GUDANG" placeholder="KTM1" class="form-control" required>
                         </div>
                         <label class="col-sm-2 control-label">Tujuan</label>
                         <div class="col-sm-3">
-                            <input type="text" name="GUDANG_TUJUAN" placeholder="ARN1/ARN3" class="form-control" required>
+                            <input type="text" name="GUDANG_TUJUAN" placeholder="KTM1" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group">

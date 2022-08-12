@@ -299,9 +299,8 @@
                         <div class="col-md-8">
                             <select class="form-control select2" id="gd" name="gd" style="width: 100%;" tabindex="-1" aria-hidden="true">
                                 <option value="%" @if($gd == '%') {{ 'selected' }} @endif>Semua Lapangan</option>
-                                <option value="ARN1" @if($gd == 'ARN1') {{ 'selected' }} @endif>Lapangan Utara (ARN1)</option>   
-                                <option value="ARN3" @if($gd == 'ARN3') {{ 'selected' }} @endif>Lapangan Barat (ARN3)</option>
-                            </select>
+                                <option value="KTM1" @if($gd == 'KTM1') {{ 'selected' }} @endif>Lapangan KTM1</option>   
+                                            </select>
                         </div>
                         <div class="col-md-4">
                             <button type="submit" id="changeWarehouse" class="btn btn-info">Submit</button>
@@ -721,8 +720,7 @@
 									<div class="col-sm-8">
 										<select class="form-control select2" id="release_lokasi" name="lokasi_gudang" style="width: 100%;" tabindex="-1" aria-hidden="true" required >
 											<option value="ALL" selected>Semua Lapangan </option>
-											<option value="ARN1" >ARN1 (Utara)</option>
-											<option value="ARN3" >ARN3 (Barat)</option>
+											<option value="KTM1" >KTM1 </option>
 										</select>
 									</div>
 							</div>
@@ -796,15 +794,11 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-@endsection
 
-@section('custom_css')
 
 <link rel="stylesheet" href="{{ asset("/bower_components/AdminLTE/plugins/datepicker/datepicker3.css") }}">
 
-@endsection
 
-@section('custom_js')
 
 <script src="{{ asset("/bower_components/AdminLTE/plugins/datepicker/bootstrap-datepicker.js") }}"></script>
 <script src="{{ asset("/assets/js/jquery.timeago.js") }}"></script>

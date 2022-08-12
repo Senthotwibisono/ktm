@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-xs-12">
         <h2 class="page-header">
-          PT. AIRIN
+          PT. KODJA TERRAMARINE
           <small class="pull-right">Date: {{ date('d F, Y') }}</small>
         </h2>
       </div>
@@ -292,13 +292,6 @@
     
   </section>
 
-@endsection
-
-@section('custom_css')
-
-@endsection
-
-@section('custom_js')
 
 <script type="text/javascript">
     $('#print-invoice-btn').click(function() {

@@ -22,7 +22,7 @@
             del = ''; 
         for(var i=0;i < ids.length;i++){ 
             var cl = ids[i];
-            
+            //alert(ids.length);
             rowdata = $('#tpsResponPlpDetailGrid').getRowData(cl);
 //            if(rowdata.JNS_CONT == 'F') {
             if(rowdata.JNS_CONT != '') {
@@ -36,6 +36,9 @@
 //            jQuery("#tpsResponPlpDetailGrid").jqGrid('setRowData',ids[i],{action:edt}); 
         } 
     }
+	
+	
+	
     
 </script>
 
@@ -291,6 +294,8 @@
     </div>
 </div>
 
+
+
 <div id="plp-modal" class="modal fade" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -323,6 +328,18 @@
                                     </select>
                                 </div>
                             </div>
+							<div class="form-group">
+                                <label class="col-sm-3 control-label">Status Container</label>
+                                <div class="col-sm-8">
+                                    <select class="form-control select2" name="cont_status" style="width: 100%;" tabindex="-1" aria-hidden="true" required>
+											<option value="">Choose Status Container</option>                                            
+											<option value="FCL">FCL</option>
+                                             <option value="LCL">LCL</option>
+                                       
+                                    </select>
+                                </div>
+                            </div>
+							
 <!--                            <div class="form-group">
                                 <label class="col-sm-3 control-label">Shipping Line</label>
                                 <div class="col-sm-8">
@@ -346,16 +363,16 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-@endsection
 
-@section('custom_css')
+
+
+
+
 
 <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="{{ asset("/bower_components/AdminLTE/plugins/datepicker/datepicker3.css") }}">
+<link rel="stylesheet" href="{{ asset("/bower_components/AdminLTE/plugins/datepicker/datepicker3.css") }}"/>
 
-@endsection
 
-@section('custom_js')
 
 <script src="{{ asset("/bower_components/AdminLTE/plugins/datepicker/bootstrap-datepicker.js") }}"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
@@ -417,6 +434,7 @@
     
     $('#createJoborderBtn').click(function()
     {
+	  //alert('askkjasjkasj');
         $('#plp-modal').modal('show');
 //        if(!confirm('Apakah anda yakin akan membuat Job Order?')){return false;}
         

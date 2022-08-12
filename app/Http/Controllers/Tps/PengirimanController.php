@@ -22,9 +22,9 @@ class PengirimanController extends Controller
         parent::__construct();
 
         $this->wsdl = 'https://tpsonline.beacukai.go.id/tps/service.asmx?WSDL';
-        $this->user = 'AIRN';
-        $this->password = 'AIRN';
-        $this->kode = 'AIRN';
+        $this->user = 'KTM0';
+        $this->password = 'KODJA';
+        $this->kode = 'KTM1';
     }
     /**
      * Display a listing of the resource.

@@ -221,7 +221,7 @@ class Controller extends BaseController
     
     public function updateYorByTeus()
     {
-        $gudang = array('ARN1','ARN3');
+        $gudang = array('KTM1','ARN1','ARN3');
         
         foreach ($gudang as $gd):
             $teus_count = \App\Models\Containercy::whereNotNull('TGLMASUK')

@@ -42,16 +42,12 @@
     </form>
 </div>
 
-@endsection
 
-@section('custom_css')
 
 <!-- Bootstrap Switch -->
 <link rel="stylesheet" href="{{ asset("/bower_components/AdminLTE/plugins/bootstrap-switch/bootstrap-switch.min.css") }}">
 
-@endsection
 
-@section('custom_js')
 
 <!-- Bootstrap Switch -->
 <script src="{{ asset("/bower_components/AdminLTE/plugins/bootstrap-switch/bootstrap-switch.min.js") }}"></script>
