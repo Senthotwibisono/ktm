@@ -552,7 +552,7 @@ table tfoot tr td:first-child {
                             Agar diajukan dalam batas waktu 4 X 24 Jam (4 Hari)<br />
                             Lewat batas waktu tersebut tidak dilayani<br />	
                             <b>16.49.41</b><br />	
-                            <b>E-Mail Faktur pajak albarmau@gmail.com</b>
+                            <b>E-Mail Faktur pajak :</b>
                         </p>
                     </td>
                     <td style="vertical-align: top;text-align: center;">PT. KODJA TERRAMARIN</td>
